@@ -1,0 +1,1 @@
+This was a ML assignment completed in my final year of uni for BISM3206. Manipulating the given data into various features and using a black forest model, i was able to build a model that predicted misinformation in tweets.
