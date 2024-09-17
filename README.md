@@ -1,1 +1,6 @@
-This was a ML assignment completed in my final year of uni for BISM3206. Manipulating the given data into various features and using a black forest model, i was able to build a model that predicted misinformation in tweets.
+This was a ML assignment completed in my final year of uni for BISM3206. Manipulating the given data into various features and using a black forest model, I was able to build a model that predicted misinformation in tweets to a 95.4% accuracy. 
+
+In the pursuit of accurate identification of misinformation within tweets, I have developed eight features that were used in classification. The use of TFDIF is to find the significant terms within the tweet and headlines to find the relevant information. Doc2Vec then captures semantic information of the texts, paired with FastText which concentrates on capturing word embeddings with a proficiency in handling misspellings and slang (perfect for tweets). Unique author ID allows the models to create a more informed model based on the author and their past tweets. Post engagement reflects how much engaging the tweet is getting and the user presence metric provides insight on credibility and influence of content creators. Both of which may be key flags for misinformation. NER was implemented to identify key entities in the texts, potentially indicating targeted misinformation campaigns. Finally, sentiment analysis highlights the emotional tone of the content. 
+
+
+
